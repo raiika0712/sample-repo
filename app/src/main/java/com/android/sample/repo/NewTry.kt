@@ -5,6 +5,6 @@ fun main(){
     val name =          readln()
     val firstName = "Ryan "
     val lastName = "Malacao"
-    val fullName = "You are $firstName + lastName"
+    val fullName = "You are $firstName + $lastName"
     println(fullName)
 }
