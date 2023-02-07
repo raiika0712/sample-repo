@@ -1,6 +1,7 @@
 package com.android.sample.repo
 
 fun main() {
+    println("STUDENT DATA")
     var stringValue = ""
     println("Enter student name: ")
     stringValue = readln()
