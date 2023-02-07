@@ -11,7 +11,7 @@ fun main(){
         }
 
         "percy jackson" -> {
-            println("$stringValue(available) Genre:Novel, Fictional Fantasy")
+            println("$stringValue(not available) Genre:Novel, Fictional Fantasy")
         }
 
         "one punch man" -> {
