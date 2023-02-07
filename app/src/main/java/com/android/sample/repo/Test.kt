@@ -1,12 +1,12 @@
 package com.android.sample.repo
-
-data class Student(val name: String)
+import java.util.Random
+data class Student(val name: String, var progress: Int)
 
 fun main() {
     println("Enter student name: ")
-    val students = mutableListOf(
-    Student("Ryan"),
-    Student("Tipani"),
-    Student("Chica")
-    )
+    val name = readLine()
+    val randomValues = Random()
+    val progress = (randomValues)
+    println("$name's progress is $progress")
+
 }
