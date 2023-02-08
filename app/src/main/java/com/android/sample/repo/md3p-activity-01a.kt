@@ -79,7 +79,7 @@ fun main() {
         var stringValue = ""
         println("Enter student name: ")
         stringValue = readln()
-        val gradeRandom = (0..10).random()
+        val gradeRandom = (0..100).random()
 
 
         when (stringValue.lowercase()) {
