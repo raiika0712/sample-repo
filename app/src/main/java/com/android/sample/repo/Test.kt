@@ -1,4 +1,5 @@
 package com.android.sample.repo
+/*
 import java.util.Random
 data class Student(val name: String, var progress: Int)
 
@@ -10,3 +11,4 @@ fun main() {
     println("$name's progress is $progress")
 
 }
+*/
