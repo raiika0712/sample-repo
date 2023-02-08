@@ -4,7 +4,7 @@ import kotlin.random.nextInt
 
 fun main() {
 
-    // students list
+    // student list
     val student1 = "Alexander Chou"
     val student2 = "Vic Amable"
     val student3 = "John Chris Bolanio"
@@ -36,7 +36,7 @@ fun main() {
     val student29 = "Vince Melmar Ybanez"
     val student30 = "Raffy Yalung"
 
-    println("press ENTER to display students list:")
+    println("press ENTER to display student list:")
     while (true) {
         val name = readln()
         if (name.isNullOrBlank()) {
