@@ -36,7 +36,7 @@ fun main() {
     val student29 = "Vince Melmar Ybanez"
     val student30 = "Raffy Yalung"
 
-    println("press ENTER to display student list:")
+    println("press ENTER to display student list or type ANYTHING to exit")
     while (true) {
         val name = readln()
         if (name.isNullOrBlank()) {
@@ -71,9 +71,9 @@ fun main() {
             println("$student29")
             println("$student30")
             println()
-        }
-        else {
-            return (main())
+        } else {
+            println("Thank you for using our student data progress list!")
+            break
         }
 
         var stringValue = ""
@@ -175,6 +175,30 @@ fun main() {
             }
             else -> {
                 println("ERROR: NO DATA")
+                break
+            }
+        }
+        var stringValue2 = ""
+        val y = true
+        val booleanSample = ""
+        val n = false
+        val booleanSample2 = ""
+
+        println()
+        println("Do you want to show the list again?(y/n):")
+        stringValue2 = readln()
+
+        when (stringValue2.lowercase()) {
+            ("y") -> {
+                println("If you want to continue press ENTER again to show the list or you can type ANYTHING to exit")
+            }
+            ("n") -> {
+                println("Thank you for using our student data progress list!")
+                break
+            }
+            else -> {
+                println("ERROR")
+                break
             }
         }
     }
