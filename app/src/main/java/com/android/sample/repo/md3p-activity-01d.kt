@@ -14,6 +14,7 @@ fun main() {
                     amounts1 = readln().toIntOrNull()
                     if (amounts1 == null) {
                         println("Error: you can input numbers only")
+                        println()
                     }
                 }
 
@@ -23,6 +24,7 @@ fun main() {
                     amounts2 = readln().toIntOrNull()
                     if (amounts2 == null) {
                         println("Error: you can input numbers only")
+                        println()
                     }
                 }
 
@@ -32,6 +34,7 @@ fun main() {
                     amounts3 = readln().toIntOrNull()
                     if (amounts3 == null) {
                         println("Error: you can input numbers only")
+                        println()
                     }
                 }
 
@@ -41,6 +44,7 @@ fun main() {
                     amounts4 = readln().toIntOrNull()
                     if (amounts4 == null) {
                         println("Error: you can input numbers only")
+                        println()
                     }
                 }
 
@@ -50,11 +54,27 @@ fun main() {
                     amounts5 = readln().toIntOrNull()
                     if (amounts5 == null) {
                         println("Error: you can input numbers only")
+                        println()
                     }
                 }
 
-                var resultSample = amounts1 + amounts2 + amounts3 + amounts4 + amounts5 * amounts2
-                println("Result: $resultSample")
+                var sumSample = amounts1 + amounts2 + amounts3 + amounts4 + amounts5
+                println()
+                println("Total: $sumSample")
+                println()
+
+                var amounts6: Int? = null
+                while (amounts6 == null) {
+                    print("Divide the value by how many?: ")
+                    amounts6 = readln().toIntOrNull()
+                    if (amounts6 == null) {
+                        println("Error: you can input numbers only")
+                        println()
+                    }
+                }
+
+                var devSample = sumSample / amounts6
+                println("Result: $devSample")
                 break
             }
             "n" -> {
